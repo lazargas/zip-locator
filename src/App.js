@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import ZipCodeForm from './components/Molecules/ZipCodeForm';
 import LocationInfo from './components/Molecules/LocationInfo';
-import Navbar from './components/Navbar';
+import Navbar from './components/Organisms/Navbar';
 import { useSelector } from 'react-redux';
 import Loader from './components/atoms/Loader';
 const App = () => {
