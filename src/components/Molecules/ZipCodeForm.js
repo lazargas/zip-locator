@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { useDispatch } from "react-redux";
-import { setData, setZipCodeData } from "../redux/actions";
-import Error from './Error'
+import { setData, setZipCodeData } from "../../redux/actions";
+import Error from '../atoms/Error'
 
 const ZipCodeForm = () => {
   const dispatch = useDispatch();

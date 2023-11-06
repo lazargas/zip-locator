@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from 'react';
-import ZipCodeForm from './components/ZipCodeForm';
-import LocationInfo from './components/LocationInfo';
+import ZipCodeForm from './components/Molecules/ZipCodeForm';
+import LocationInfo from './components/Molecules/LocationInfo';
 import Navbar from './components/Navbar';
 import { useSelector } from 'react-redux';
-import Loader from './components/Loader';
+import Loader from './components/atoms/Loader';
 const App = () => {
   const zipCodeData = useSelector((state) => state.zipCodeData);
   const [view, setView] = useState(false);

@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { useSelector,useDispatch } from 'react-redux';
-import { dynamoDB } from '../db';
-import Loader from './Loader';
+import { dynamoDB } from '../../db';
+import Loader from '../atoms/Loader';
 
 const LocationInfo = () => {
   const dispatch = useDispatch();
